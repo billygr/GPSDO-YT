@@ -1,6 +1,7 @@
 ;GPSDO YT
 ;1000s gate
 .Org $0000
+.include "m328pdef.inc"		;instruction jmp utiliser pour interrupt
 .include "int_atmega328p.inc"
 
 ;définition des régistres.
